@@ -1,4 +1,4 @@
-# Hi, I'm Rofi 👋
+# Hi, I'm Rofi 
 
 **HR Systems & AI Automation Builder based in Indonesia**
 
@@ -74,5 +74,5 @@ I am especially interested in projects involving:
 ## Connect
 
 - Website: [rofiibnu.com](https://rofiibnu.com)
-- Email: [rofiibnu@gmail.com](mailto:rofiibnu@gmail.com)
+- Email: [rofiibnu@gmail.com](mailto:hi@rofiibnu.com)
 - Location: Indonesia
