@@ -1,25 +1,9 @@
-# Rofi — Open-Source Tools for Indonesian HR & Compliance 🇮🇩
+# Hi, I'm Rofi 👋
 
-I build and maintain open-source tools that help Indonesian businesses navigate labor law, HR operations, and document workflows — problems I saw firsthand as a non-technical founder in the HR space.
+**HR Systems & AI Automation Builder based in Indonesia**
 
-## 🛠️ Projects I Maintain
+I combine hands-on HR operations experience with software, AI, and workflow automation to build practical systems for Indonesian teams and growing businesses.
 
-### [Rambu HR](https://github.com/Reckbeg/rambu-hr)
-Indonesian labor rights knowledge base. Reference cards covering workers' rights under UU Ketenagakerjaan, severance calculations, and compliance checklists — sourced from official government regulations. Built for HR teams, unions, and workers who need fast, reliable answers.
+My focus is not automation for its own sake. I start with the workflow, understand the operational risks, and then choose the simplest technology that can produce a reliable result.
 
-### [DokumenAI](https://github.com/Reckbeg/dokumenai)
-Open-source document AI for Indonesian business documents. Upload invoices, contracts, or tax forms and extract structured, actionable data. Free, private, and runs without vendor lock-in.
-
-### [PeopleSheet](https://github.com/Reckbeg/PeopleSheet)
-Instantly generate ready-to-use HR spreadsheets tailored to Indonesian workflows — attendance tracking, payroll templates, leave management, and more.
-
-## 🤝 Open-Source Contributions
-
-- **[HyperFormula](https://github.com/handsontable/hyperformula)** — Indonesian localization for the README
-- **[HRMS (Frappe)](https://github.com/frappe/hrms)** — Indonesian localization for documentation, making the HRMS accessible to Indonesian HR practitioners
-
-## 📫 Get Involved
-
-- 🐛 Found a bug? [Open an issue](https://github.com/Reckbeg/rambu-hr/issues)
-- 💡 Feature request? [Start a discussion](https://github.com/Reckbeg/rambu-hr/discussions)
-- 🌏 Based in Indonesia
+## What
