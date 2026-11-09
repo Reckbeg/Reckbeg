@@ -1,78 +1,41 @@
-# Hi, I'm Rofi 
+# Hi, I'm Rofi
 
-**HR Systems & AI Automation Builder based in Indonesia**
+**Workflow automation and internal tools, Indonesia.**
 
-I combine hands-on HR operations experience with software, AI, and workflow automation to build practical systems for Indonesian teams and growing businesses.
+I automate the admin work teams still do by hand, like the monthly spreadsheet someone rebuilds from scratch or the invoice someone retypes into another system. Where a wrong value would cost money, I keep a person in the loop to check it. I also keep the setup simple, so the team can run it without me.
 
-My focus is not automation for its own sake. I start with the workflow, understand the operational risks, and then choose the simplest technology that can produce a reliable result.
+I started in HR operations, so most of my automation so far handles people data and Indonesian business admin.
 
-## What I work on
+<!-- TODO(Rofi): add one or two real, anonymised results, e.g.
+     "Automated the monthly attendance-to-payroll recap: about X hours down to Y minutes."
+     Use numbers you can defend if someone asks. If you can't, delete this comment and the line below. -->
+<!-- **Results:** … -->
 
-- HR operations and people-process automation
-- AI-assisted document and data workflows
-- Lightweight internal tools for growing teams
-- Indonesian-first products, localization, and compliance resources
-- Privacy-conscious, testable, and maintainable systems
+## What I automate
 
-## Featured projects
+- Pulling fields out of PDFs and scans into rows someone can review before export
+- Google Sheets and Apps Script systems, and XLSX files generated from code
+- Recurring recaps and exports that move data from one tool into another
+- LLM steps inside a pipeline, with a person approving the output
 
-### [PeopleSheet](https://github.com/Reckbeg/PeopleSheet)
+Most of this runs on private employee and company data, so the repos are closed. Things I've built there include a master-data system on Google Sheets and Apps Script, an attendance-to-payroll recap, a job-description generator, and a CV screener that parses PDFs, removes personal data before the LLM sees it, scores each CV and writes the results to CSV.
 
-A free, privacy-first library of ready-to-use HR spreadsheet templates for Indonesian teams.
+## Public projects
 
-It generates customizable XLSX files for attendance, leave, PPh21, THR, BPJS, performance reviews, overtime, turnover, and employee master data—without requiring an account or storing employee information.
+**[DokumenAI](https://github.com/Reckbeg/dokumenai)**: a self-hostable prototype for Indonesian business documents (invoices, faktur pajak, transfer proofs, POs). It extracts the fields, you check them, and you export to CSV, XLSX or JSON. You pick the model endpoint, and it can be a local one.
+`Next.js` `TypeScript` `SQLite` `Docker`
 
-**Built with:** Next.js, TypeScript, Tailwind CSS, ExcelJS, Vitest, and GitHub Actions.
+**[PeopleSheet](https://github.com/Reckbeg/PeopleSheet)**: generates nine XLSX workbooks with working formulas for Indonesian HR admin, including PPh21, THR, BPJS, attendance and leave. No login, and it stores nothing. → [peoplesheet.biz.id](https://peoplesheet.biz.id)
+`ExcelJS` `Vitest` `GitHub Actions`
 
-### [DokumenAI](https://github.com/Reckbeg/dokumenai)
+## Open source
 
-A self-hostable document-to-data workflow for Indonesian business documents.
+- [FMLibreEditor](https://github.com/tozmoz/FMLibreEditor) (Rust): I added [club export to CSV and JSON](https://github.com/tozmoz/FMLibreEditor/pull/135), read live from the running game, and an [Indonesian interface](https://github.com/tozmoz/FMLibreEditor/pull/138). Both merged.
+- [HyperFormula](https://github.com/handsontable/hyperformula): I added [Indonesian spreadsheet function names](https://github.com/handsontable/hyperformula/pull/1674) and [fixed wide tables in the docs on phones](https://github.com/handsontable/hyperformula/pull/1675). Both merged.
+- Meta AI Hackathon 2026, team project NextStep: I wrote the [ASP.NET Core client for the model API](https://github.com/NOOROWAISSI/meta-ai-hackathon-2026/pull/10) and fixes that flag preparation plans the user can't actually carry out.
 
-Users can upload invoices, receipts, tax invoices, transfer proofs, and purchase orders; review extracted fields; and export structured results to CSV, XLSX, or JSON.
+## Work with me
 
-**Built with:** Next.js, TypeScript, SQLite, configurable LLM and vision endpoints, API-key authentication, automated tests, and Docker deployment.
+Send me the task your team keeps doing by hand, and I'll tell you whether it's worth automating.
 
-> Data handling depends on the model endpoint configured by the operator. A locally hosted model can be used when stronger data-control requirements apply.
-
-### [Hakmu](https://github.com/Reckbeg/hakmu)
-
-A public-good Indonesian labor-rights knowledge base built around concise reference cards and official legal sources.
-
-The project includes source validation, structured content checks, privacy-preserving browser tools, accessibility work, automated testing, and a documented regulatory-review workflow.
-
-**Live:** [hakmu.rofiibnu.com](https://hakmu.rofiibnu.com)
-
-## Open-source contributions
-
-### HyperFormula
-
-- [Indonesian language pack](https://github.com/handsontable/hyperformula/pull/1674) — merged upstream
-- [Responsive wide-table documentation fix](https://github.com/handsontable/hyperformula/pull/1675) — merged upstream
-
-These contributions added Indonesian localization for spreadsheet functions and improved documentation accessibility on narrow screens.
-
-## How I approach systems
-
-1. Understand the real workflow and the people using it.
-2. Identify repetitive work, failure points, and sensitive data.
-3. Choose the smallest useful technical intervention.
-4. Build with clear boundaries, validation, documentation, and tests.
-5. Measure whether the system actually improves the operation.
-
-## Current direction
-
-I am developing my practice around **AI, workflow automation, and internal systems for HR teams and Indonesian SMEs**.
-
-I am especially interested in projects involving:
-
-- HR workflow assessment and redesign
-- Spreadsheet and reporting automation
-- Document extraction and structured-data pipelines
-- AI-assisted internal tools with human review
-- Practical prototypes that can grow into maintainable systems
-
-## Connect
-
-- Website: [rofiibnu.com](https://rofiibnu.com)
-- Email: [rofiibnu@gmail.com](mailto:hi@rofiibnu.com)
-- Location: Indonesia
+[rofiibnu.com](https://rofiibnu.com) · [LinkedIn](https://www.linkedin.com/in/rofiibnu) · [hi@rofiibnu.com](mailto:hi@rofiibnu.com)
